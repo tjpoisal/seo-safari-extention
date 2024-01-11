@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Safari SEO Extension",
+  "version": "1.0",
+  "description": "An extension to improve SEO rankings and provide suggestions.",
+  "permissions": [
+    "tabs",
+    "<all_urls>"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
